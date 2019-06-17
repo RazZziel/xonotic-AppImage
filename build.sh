@@ -18,3 +18,5 @@ unzip AppDirContents.zip -d Xonotic.AppDir
 # Start building
 chmod a+x appimagetool-x86_64.AppImage
 ARCH=x86_64 ./appimagetool-x86_64.AppImage Xonotic.AppDir/
+
+mkdir out;mv Xonotic-* out/
