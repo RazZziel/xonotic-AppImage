@@ -4,7 +4,7 @@
 wget -c https://github.com/AppImage/AppImageKit/releases/download/12/appimagetool-x86_64.AppImage
 
 # Download Xonotic package
-wget -c https://dl.xonotic.org/xonotic-0.8.2.zip
+wget -c -nv https://dl.xonotic.org/xonotic-0.8.2.zip
 unzip xonotic-0.8.2.zip
 
 # Create Xonotic.AppDir and move all the content into there
